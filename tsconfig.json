@@ -1,0 +1,14 @@
+{
+  "compilerOptions" : {
+    "noImplicitAny" : true, // brak automatycznych zmian na any
+    "preserveConstEnums": true, //pozwala na enumy
+    "sourceMap": true, //żeby node wiedział gdzie jest błąd w pliku z kodem typescript
+    "target": "es6",
+    "downlevelIteration": true,
+    "lib": ["es6", "dom.iterable"],
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node"
+  }
+}

@@ -1,0 +1,6 @@
+<select name="{{select-name}}" id="warriorSelect">
+    <option value="" disabled selected style="display:none;">Wybierz wojownika</option>
+    {{#each warriors}}
+        <option value="{{this.id}}">{{this.name}}</option>
+    {{/each}}
+</select>
